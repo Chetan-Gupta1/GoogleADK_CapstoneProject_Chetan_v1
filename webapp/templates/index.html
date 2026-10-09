@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>NovaRetail AI Builder</title>
+    <script src="/static/app.js"></script>
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
+  </head>
+  <body>
+
+    <div class="header">
+      <h1>🛒 NovaRetail AI Executive Review Builder</h1>
+        <button
+            class="read-instructions-btn"
+            onclick="showInstructions()">
+            📖 Instructions
+        </button>
+    </div>
+
+    <div class="container">
+      <div class="card">
+        <h2>📈 Business Review Generator</h2>
+        <p>
+          Analyze the NovaRetail dataset and build
+          AI-powered executive presentations.
+        </p>
+
+        <div class="button-section">
+          <button class="btn" onclick="analyzeDataset()">
+            Analyze Dataset
+          </button>
+          <button class="btn" onclick="generateContent()">
+            Generate AI Narrative
+          </button>
+          <button class="btn" onclick="buildPresentation()" id="buildBtn">
+            Build Presentation
+          </button>
+        </div>
+      </div>
+
+      <div id="results"></div>
+      <div id="narrative"></div>
+      <div id="build-status"></div>
+      <div id="instructionsModal" class="modal">
+
+        <div class="modal-content">
+
+            <span
+                class="close"
+                onclick="closeInstructions()">
+                &times;
+                
+            </span>
+
+            <h2>
+                How NovaRetail Works
+            </h2>
+
+            <img src="/static/images/how_it_works.png" alt="How NovaRetail Works" style="width:100%;">
+
+        </div>
+
+    </div>
+    </div>
+
+  </body>
+</html>

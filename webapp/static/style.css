@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fa;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.header {
+    background-color: #0078D4;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.card {
+    background: white;
+    margin-top: 30px;
+    padding: 30px;
+    border-radius: 10px;
+
+    box-shadow: 0px 2px 10px
+                rgba(0,0,0,0.1);
+}
+
+.btn {
+    background-color: #0078D4;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: #005ea6;
+}
+
+.read-instructions-btn {
+    background-color: #0078D4;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.read-instructions-btn:hover {
+    background-color: #005ea6;
+    color: white;
+}
+
+.kpi-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.kpi-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    min-width: 220px;
+    box-shadow: 0px 2px 8px
+                rgba(0,0,0,0.1);
+}
+
+.kpi-title {
+    font-size: 14px;
+    color: #555;
+}
+
+.kpi-value {
+    font-size: 26px;
+    font-weight: bold;
+    color: #003366;
+}
+
+#narrative {
+    margin-top: 30px;
+}
+
+#narrative .card {
+    text-align: left;
+}
+
+#narrative h3 {
+    color: #003366;
+}
+
+#narrative ul {
+    padding-left: 20px;
+}
+
+#narrative li {
+    margin-bottom: 8px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color:
+        rgba(0,0,0,0.8);
+}
+
+.modal-content {
+    background: white;
+    margin: 2% auto;
+    padding: 20px;
+    width: 90%;
+    max-width: 1400px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.close {
+    float: right;
+    font-size: 32px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.instruction-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}

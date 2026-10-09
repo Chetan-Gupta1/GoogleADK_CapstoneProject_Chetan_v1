@@ -1,0 +1,12 @@
+google-adk
+pandas
+python-pptx
+openpyxl
+pillow
+google-genai
+python-dotenv
+pydantic>=2
+fastapi
+uvicorn
+jinja2
+python-multipart
